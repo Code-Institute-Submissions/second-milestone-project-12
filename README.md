@@ -65,4 +65,4 @@ safari, internet explorer, iphone 6, iphone X, samsung galaxy 10.
 
 The web page was deployed using git hub pages. In the settings section of the repositry on git hub i went o git hub pages. And deployed from there
 
-The website is available to view here: <a href=""></a>
+The website is available to view here: <a href="https://conbonbom.github.io/second-milestone-project/">link</a>

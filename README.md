@@ -41,7 +41,7 @@ The footer section is a simple mirroring of the header that i thought would be a
 <li>Javascript-used to implement google maps api</li>
 </ul>
 
-##Awknowledgements
+## Awknowledgements
 
 fontawsome- Was used for Icons across all pages
 
@@ -56,13 +56,13 @@ W3schools- Was used to help across all pages
 
 freelogodesign.org- used to create the logo seen
 
-##Testing
+## Testing
 
 I have tried my best to keep the website as responsive and interactive as possible however i feel there is many improvements to be made here. The website was tested on google chrome
 safari, internet explorer, iphone 6, iphone X, samsung galaxy 10.
 
-##deployment
+## deployment
 
 The web page was deployed using git hub pages. In the settings section of the repositry on git hub i went o git hub pages. And deployed from there
 
-The website is available to view here:
+The website is available to view here: <a href=""></a>

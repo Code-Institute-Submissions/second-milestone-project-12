@@ -1,5 +1,55 @@
-.header {
-    background-color: #091711;
-    width: 100%;
-    overflow: auto;
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+/*----------------------------------------------------------header*/
+.bg-custom{
+     background-color: #fcf7de;
+}
+
+.nav-item {
+    padding-left:20px;
+    padding-top: 120px;
+    font-family: 'Courgette';
+    font-size: 20px;
+   
+}
+
+.navbar a i {
+    width: 45px;
+    height: 45px;
+    padding: 18px 0;
+    font-size: 18px;
+    line-height: 11px;
+    border-radius: 50%;
+    color: #154E87;
+    background: #fcf7de;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.navbar a i:hover {
+    color: #3D90E3;
+    background: #154E87;
+}
+/*----------------------------------------------------------footer*/
+
+footer{
+    font-family: 'Courgette';
+    font-size: 20px;
+    background-color: #fcf7de;
+    padding-top:20px;
+    padding-left:500px;
+
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: #8c8982;
+}
+
+.footer-link a:hover {
+    text-decoration: none;
+    color: #4B4942;
 }

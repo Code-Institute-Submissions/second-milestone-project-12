@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <header>
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <header>
+       <nav class=" navbar navbar-expand-lg bg-custom navbar-light">
   <a class="navbar-brand" href="index.html"><img src="images/ETlogo.png" alt="Euro Tours"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -22,34 +22,34 @@
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
+      <li class="nav-item ">
         <a class="nav-link" href="aboutus.html">About us<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="destinations.html">Destinations</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="#">Book now</a>
+        <a class="nav-link " href="booknow.html">Book now</a>
       </li>
       <li class="nav-item">
         <ul class="list-inline social">
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                         <i class="fa fa-facebook"></i>
-                     </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                         <i class="fa fa-twitter"></i>
-                     </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                         <i class="fa fa-instagram"></i>
-                     </a>
-                        </li>
+            <li class="list-inline-item">
+                <a target="_blank" href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a target="_blank" href="#">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a target="_blank" href="#">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </li>
 
-                    </ul>
+        </ul>
       </li>
     </ul>
   </div>
@@ -59,10 +59,14 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">Destinations</h1>
-    <p class="lead">Browse all our destinations</p>
+    <p class="lead">Browse our destinations. <br>
+    Zoom in on the map to see some of the most popular attractions of our destinations.
+    <br>Then scroll down to found out more bout the city.</p>
   </div>
 </div>
-<div id="map" style="width:100%;height:400px;"></div>
+<div class="map-container">
+<div class="map" id="map"></div>
+</div>
 
 <div class="card-deck">
   <div class="card">
@@ -182,12 +186,12 @@
 </div>
 </section>
     
-    <footer>
-   <div class="row container-fluid">
-        <div class="col-md-3">About us</div>
-        <div class="col-md-3">Destinations</div>
-        <div class="col-md-3">Book Now!</div>
-        <div class="col-md-3"><img src="images/ETlogo.png" alt="Euro Tours"></div>
+  <footer>
+    <div class="row container-fluid">
+        <div class="col-md-3 footer-link"><a class="" href="aboutus.html">About us</a></div>
+        <div class="col-md-3 footer-link"><a class="" href="destinations.html">Destinations</a></div>
+        <div class="col-md-3 footer-link"><a class="" href="#">Book now</a></div>
+        <div class="col-md-3 footer-link"><a class="footer-brand" href="index.html"><img src="images/ETlogo.png" alt="Euro Tours"></a></div>
     </div>
     </footer>
    

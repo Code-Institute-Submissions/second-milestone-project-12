@@ -78,3 +78,59 @@ footer{
  color: #154E87;
  font-family: 'Courgette';
 }
+
+/*----------------------------------------------------------book now*/
+
+.form-group{
+ background-color: #fcf7de;
+ color: #154E87;
+ font-family: 'Courgette';  
+ padding: 10px;
+ text-align: center;
+ display: flex;
+ align-items: center;
+ margin: auto;
+}
+
+.btn-default{
+ background-color: #154E87;
+ color: #fcf7de;
+ padding: 50px;
+}
+
+.form-contact {
+background-color: #fcf7de;
+ color: #154E87;
+ font-family: 'Courgette';  
+ text-align: center;
+ padding: 10px;
+ margin: auto;
+}
+.form-control {
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+/*----------------------------------------------------------destinations*/
+
+.jumbotron {
+    background-color: #fcf7de;
+ color: #154E87;
+ font-family: 'Courgette';  
+ margin: auto;
+}
+
+.map {
+    width:75%;
+    height:400px;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.map-container{
+   background-color: #fcf7de; 
+    margin: auto;
+    display: flex;
+}

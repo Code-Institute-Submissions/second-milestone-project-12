@@ -1,7 +1,8 @@
+//maps
 function initMap() {
 
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 3,
+          zoom: 4,
           center: {lat: 54.5260, lng: 15.2551}
         });
 
@@ -30,10 +31,10 @@ function initMap() {
         {lat: 51.5194, lng: 0.1270},
         {lat: 51.5081, lng: 0.0759},
         //madrid locations
-        {lat: 40.4169, lng: 3.7035},
-        {lat: 40.4153, lng: 3.6845},
-        {lat: 40.4240, lng: 3.7178},
-        {lat: 40.4138, lng: 3.6921},
+        {lat: 40.4169, lng:  -3.7022},
+        {lat: 40.41403, lng: -3.68358},
+        {lat: 40.4240, lng: -3.7178},
+        {lat: 40.4138, lng: -3.6921},
         //berlin locations
         {lat: 52.5163, lng: 13.3777},
         {lat: 52.5050, lng: 13.4397},
@@ -47,3 +48,8 @@ function initMap() {
         {lat: 50.0754, lng: 14.4142},
         {lat: 50.0810, lng: 14.4280}
       ]
+
+      //carousels
+      $('.carousel').carousel({
+        interval: 2000
+        })

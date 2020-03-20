@@ -40,7 +40,7 @@ footer{
     font-size: 20px;
     background-color: #fcf7de;
     padding-top:20px;
-    padding-left:500px;
+    padding-left:50px;
 
 }
 
@@ -52,4 +52,17 @@ footer{
 .footer-link a:hover {
     text-decoration: none;
     color: #4B4942;
+}
+
+/*----------------------------------------------------------carousel*/
+
+.carousel-caption {
+    font-family: 'Courgette';
+    color: #fcf7de;
+    font-size: 90px;
+    opacity: 90%;
+}
+
+.slide-title{
+    font-size: 20px;
 }

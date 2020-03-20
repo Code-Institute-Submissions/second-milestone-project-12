@@ -49,7 +49,8 @@ function initMap() {
         {lat: 50.0810, lng: 14.4280}
       ]
 
-      //carousels
-      $('.carousel').carousel({
-        interval: 2000
-        })
+
+     $('#myList a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})

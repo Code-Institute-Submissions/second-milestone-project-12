@@ -14,7 +14,7 @@
 
 <body>
     <header>
-       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <nav class=" navbar navbar-expand-lg bg-custom navbar-light">
   <a class="navbar-brand" href="index.html"><img src="images/ETlogo.png" alt="Euro Tours"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
+      <li class="nav-item ">
         <a class="nav-link" href="aboutus.html">About us<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
@@ -33,70 +33,44 @@
       </li>
       <li class="nav-item">
         <ul class="list-inline social">
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                         <i class="fa fa-facebook"></i>
-                     </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                         <i class="fa fa-twitter"></i>
-                     </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                         <i class="fa fa-instagram"></i>
-                     </a>
-                        </li>
+            <li class="list-inline-item">
+                <a target="_blank" href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a target="_blank" href="#">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a target="_blank" href="#">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </li>
 
-                    </ul>
+        </ul>
       </li>
     </ul>
   </div>
 </nav>
     </header>
     <section>
-     <div id="accordion">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Flights
-        </button>
-      </h5>
-    </div>
-
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-      <div class="card-body">
-        We can help you get the best deal on flights!
-      </div>
+  <div class="row info">
+  <div class="col-4">
+    <div class="list-group" id="list-tab" role="tablist">
+      <a class="list-group-item list-group-item-action " id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="flights">Fly</a>
+      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="accomodation">Stay</a>
+      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="itinerary">See</a>
+      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="callus">Call Us!</a>
     </div>
   </div>
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Accomodation
-        </button>
-      </h5>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-      <div class="card-body">We can help you and your group get the best deal on accomodation!
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Itinerary
-        </button>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-      <div class="card-body">
-        We can put together the perfect iterary for your trip so you dont miss a thing!
-      </div>
+  <div class="col-8">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">We can get you the best deal on flights for your chosen destination</div>
+      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">From Cool hostels to luxury apartments and hotels, we can find the perfect accomodation to suit your budget.</div>
+      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Want to make the absolute most out of your trip? lets us help you put together your perfect itinerary</div>
+      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Call us now on 01 4567463</div>
     </div>
   </div>
 </div>
@@ -104,12 +78,13 @@
     
     <footer>
     <div class="row container-fluid">
-        <div class="col-md-3">About us</div>
-        <div class="col-md-3">Destinations</div>
-        <div class="col-md-3">Book Now!</div>
-        <div class="col-md-3"><img src="images/ETlogo.png" alt="Euro Tours"></div>
+        <div class="col-md-3 footer-link"><a class="" href="aboutus.html">About us</a></div>
+        <div class="col-md-3 footer-link"><a class="" href="destinations.html">Destinations</a></div>
+        <div class="col-md-3 footer-link"><a class="" href="#">Book now</a></div>
+        <div class="col-md-3 footer-link"><a class="footer-brand" href="index.html"><img src="images/ETlogo.png" alt="Euro Tours"></a></div>
     </div>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

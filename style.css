@@ -66,3 +66,15 @@ footer{
 .slide-title{
     font-size: 20px;
 }
+
+/*----------------------------------------------------------about us info*/
+.info{
+   background-color: #fcf7de;
+ color: #154E87;
+ font-family: 'Courgette';  
+}
+.list-group-item {
+ background-color: #fcf7de;
+ color: #154E87;
+ font-family: 'Courgette';
+}

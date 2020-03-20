@@ -23,13 +23,13 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item ">
-        <a class="nav-link" href="aboutus.html">About us<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#aboutus">About us<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="destinations.html">Destinations</a>
+        <a class="nav-link" href="#destinations">Destinations</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link " href="booknow.html">Book now</a>
+        <a class="nav-link " href="#booknow">Book now</a>
       </li>
       <li class="nav-item">
         <ul class="list-inline social">
@@ -95,21 +95,226 @@
     </div>
   </div>
 </div>
+<a name="aboutus"></a>
+ <div class="row info">
+  <div class="col-4">
+    <div class="list-group" id="list-tab" role="tablist">
+      <a class="list-group-item list-group-item-action " id="list-fly-list" data-toggle="list" href="#list-fly" role="tab" aria-controls="fly">Fly</a>
+      <a class="list-group-item list-group-item-action" id="list-stay-list" data-toggle="list" href="#list-stay" role="tab" aria-controls="stay">Stay</a>
+      <a class="list-group-item list-group-item-action" id="list-see-list" data-toggle="list" href="#list-see" role="tab" aria-controls="see">See</a>
+      <a class="list-group-item list-group-item-action" id="list-about-list" data-toggle="list" href="#list-about" role="tab" aria-controls="about">About us</a>
+    </div>
+  </div>
+  <div class="col-8">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade" id="list-fly" role="tabpanel" aria-labelledby="list-fly-list">We can get you the best deal on flights for your chosen destination</div>
+      <div class="tab-pane fade" id="list-stay" role="tabpanel" aria-labelledby="list-stay-list">From Cool hostels to luxury apartments and hotels, we can find the perfect accomodation to suit your budget.</div>
+      <div class="tab-pane fade" id="list-see" role="tabpanel" aria-labelledby="list-see-list">Want to make the absolute most out of your trip? lets us help you put together your perfect itinerary</div>
+      <div class="tab-pane fade" id="list-about" role="tabpanel" aria-labelledby="list-about-list">We are a small but quickly growing travel agency based in dublin. We specialise in short weekend breaks within Europe.
+       We can plan your entire weekend break and tailor it exactly to your needs and desires
+      Call us now on 01 4567463</div>
+    </div>
+  </div>
+</div>
+<a name="destinations"></a>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Destinations</h1>
+    <p class="lead">Browse our destinations. <br>
+    Zoom in on the map to see some of the most popular attractions of our destinations.
+    <br>Then scroll down to found out more bout the city.</p>
+  </div>
+</div>
+<div class="map-container">
+<div class="map" id="map"></div>
+</div>
+
+<div class="card-deck">
+  <div class="card">
+    <img src="images/paris.jpg" class="card-img-top" alt="paris">
+    <div class="card-body">
+      <h5 class="card-title">Bonjour Paris</h5>
+      <p class="card-text">Paris' monument-lined boulevards, museums, classical bistros and boutiques are 
+      enhanced by a new wave of multimedia galleries, creative wine bars, design shops and tech start-ups.</p>
+    </div>
+    <div class="card-footer">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Find out more!</button>
+
+<div class="modal fade " id="paris" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+<ul class="city-list">
+<li>A. The Eiffel Tower </li>
+<li>B. Louvre Museum</li>
+<li>C. Arc de Triomphe</li>
+</ul>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/london.jpg" class="card-img-top" alt="london">
+    <div class="card-body">
+      <h5 class="card-title">Hello London</h5>
+      <p class="card-text">One of the world's most visited cities, London has something for everyone: 
+      from history and culture to fine food and good times.</p>
+    </div>
+    <div class="card-footer">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Find out more!</button>
+
+<div class="modal fade bd-example-modal-lg" id="london" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+<ul class="city-list">
+    <li>D. Big Ben</li>
+    <li>E. Buckingham Palace</li>
+    <li>F. The British Museum</li>
+</ul>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/madrid.jpg" class="card-img-top" alt="madrid">
+    <div class="card-body">
+      <h5 class="card-title">Hola Madrid</h5>
+      <p class="card-text">Madrid is a beguiling place with an energy that carries one simple message: this city really knows how to live.</p>
+    </div>
+    <div class="card-footer">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Find out more!</button>
+
+<div class="modal fade bd-example-modal-lg" id="madrid" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+<ul class="city-list">
+    <li>G. Puerta del Sol</li>
+    <li>H. El Retiro Park</li>
+    <li>I. Temple of Debod</li>
+</ul>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+<div class="card-deck">
+  <div class="card">
+    <img src="images/berlin.jpg" class="card-img-top" alt="berlin">
+    <div class="card-body">
+      <h5 class="card-title">Hallo Berlin</h5>
+      <p class="card-text">Berlin's combo of glamour and grit is bound to mesmerise all those keen to explore its 
+      vibrant culture, cutting-edge architecture, fabulous food, intense parties and tangible history.</p>
+    </div>
+    <div class="card-footer">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Find out more!</button>
+
+<div class="modal fade bd-example-modal-lg" id="berlin" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class=" modal-lg">
+    <div class="modal-content">
+<ul class="city-list">
+    <li>J. The Brandenburg Gate</li>
+    <li>K. Memorial to the Murdered Jews of Europe</li>
+    <li>L. East Side Gallery</li>
+</ul>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/prague.jpg" class="card-img-top" alt="prague">
+    <div class="card-body">
+      <h5 class="card-title">Ahoj Praha</h5>
+      <p class="card-text">Prague is the equal of Paris in terms of beauty. Its history goes back a millennium.
+       And the beer? The best in Europe.</p>
+    </div>
+    <div class="card-footer">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Find out more!</button>
+
+<div class="modal fade bd-example-modal-lg" id="prague" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+<ul class="city-list">
+    <li>M. Prague Castle</li>
+    <li>N. Charles bridge</li>
+    <li>O. Prague Astronomical Clock</li>
+</ul>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Up Coming destinations</h5>
+      <p class="card-text">We will be bringing these fantastic cities to our portfolio of destinations in the near future</p>
+    </div>
+    <div class="card-footer">
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Find out more!</button>
+
+<div class="modal fade bd-example-modal-lg" id="comingup" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+ <ul class="city-list">
+    <li>Amsterdam</li>
+    <li>Budapest</li>
+    <li>Copenhagen</li>
+</ul>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+<a name="booknow"></a>
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control input-sm" id="exampleFormControlInput1" placeholder="your email address here">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Select your desired destination</label>
+    <select class="form-control input-sm" id="exampleFormControlSelect1">
+      <option>Paris</option>
+      <option>London</option>
+      <option>Madrid</option>
+      <option>Berlin</option>
+      <option>Prague</option>
+    </select>
+  </div>
+  <div class="form-contact">
+  Write your message here and tell us some attractions you'd like to visit.
+Or tell us what your interests are and we can get back to you with an example itinerary
+</div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1"></label>
+    <textarea class="form-control input-sm" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
+<div class="form-contact">
+ <button class="btn btn-default" type="submit">Submit!</button>
+<h5> Or call us on 01 4567463 </h5>
+</div>
 </section>
     
-    <footer>
+<footer>
     <div class="row container-fluid">
         <div class="col-md-3 footer-link"><a class="" href="aboutus.html">About us</a></div>
         <div class="col-md-3 footer-link"><a class="" href="destinations.html">Destinations</a></div>
         <div class="col-md-3 footer-link"><a class="" href="#">Book now</a></div>
         <div class="col-md-3 footer-link"><a class="footer-brand" href="index.html"><img src="images/ETlogo.png" alt="Euro Tours"></a></div>
     </div>
-    </footer>
-    
+</footer>
+    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIzJk24O6Lfph_L1fCxgMEFkPXV5wBLmE&callback=initMap">
+    </script>
 </body>
 
 </html>

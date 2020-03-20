@@ -112,7 +112,7 @@ background-color: #fcf7de;
     display: flex;
 }
 
-/*----------------------------------------------------------destinations*/
+/*----------------------------------------------------------jumbotron and map*/
 
 .jumbotron {
     background-color: #fcf7de;
@@ -126,11 +126,33 @@ background-color: #fcf7de;
     height:400px;
     align-items: center;
     margin: auto;
-    padding-bottom: 50px;
+    margin-bottom: 100px
 }
 
 .map-container{
    background-color: #fcf7de; 
     margin: auto;
     display: flex;
+}
+
+/*----------------------------------------------------------destination cards*/
+
+.card-deck {
+margin: auto;
+background-color: #fcf7de;
+font-family: 'Courgette'; 
+}
+
+.card {
+
+    background-color: #fcf7de;
+    font-family: 'Courgette'; 
+    color: #154E87;
+    text-align: center;
+    
+}
+
+.btn{
+  background-color: #154E87;
+  color: #fcf7de;
 }
